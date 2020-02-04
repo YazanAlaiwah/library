@@ -47,11 +47,12 @@ header ul li{
 }
 header ul {
     /* display: inline; */
-    padding-top: 10px;
+    padding-top: 25px;
     
 }
 .header-auth{
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
 }
 header a{
     text-decoration: none;
@@ -61,7 +62,8 @@ header a{
 }
 
 header a:hover{
-    background-color: orangered;
+    color: white;
+    background-color: darkblue;
     padding: 15px 25px;
 }
 main{
@@ -84,8 +86,9 @@ main div a{
     padding: 20px 50px;
 }
 main div a:hover{
+    color: white;
     text-decoration: none;
-    border-radius: 100%;
+    border-radius: 70%;
     color: black;
     background: darkblue;
     padding: 25px 40px;
