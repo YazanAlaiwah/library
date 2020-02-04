@@ -7,6 +7,13 @@ body{
     display: flex;
     flex-direction: column;
 }
+ 
+h1{
+    margin-left: 10px;
+    font-size: 60px;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+
 img{
     display: block;
     margin-bottom: 20px;
@@ -48,14 +55,14 @@ header ul {
 }
 header a{
     text-decoration: none;
-    background: white;
-    padding: 10px 10px;
+    background: #3b98fc;
+    padding: 10px 20px;
     border-radius: 10px;
 }
 
 header a:hover{
     background-color: orangered;
-    padding: 15px 15px;
+    padding: 15px 25px;
 }
 main{
     margin-top: 10%;
@@ -73,21 +80,25 @@ main div a{
     text-decoration: none;
     border-radius: 8px;
     color: black;
-    background: skyblue;
-    padding: 20px 30px;
+    background: #3b98fc;
+    padding: 20px 50px;
 }
 main div a:hover{
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 100%;
     color: black;
-    background: orangered;
-    padding: 25px 35px;
+    background: darkblue;
+    padding: 25px 40px;
 }
 
 img{
     width: 200px;
     height: 300px;
     margin: 30px 10px;
+}
+img:hover{
+    width: 220px;
+    height: 320px;
 }
 
 header a{
@@ -110,5 +121,8 @@ footer li a:hover{
     font-size: 17px;
     text-decoration: none;
     color: darkblue;
+}
+footer span{
+    font-size: 15px;
 }
 
